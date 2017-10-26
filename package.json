@@ -34,7 +34,7 @@
     "reflect-metadata": "^0.1.10",
     "vue": "~2.4.2",
     "vue-class-component": "~5.0.2",
-    "vue-container": "^1.0.4",
+    "vue-di-attributes": "git+https://github.com/Devlus/vue-js-attributes.git",
     "vue-property-decorator": "^5.2.1",
     "vue-router": "~2.7.0"
   },

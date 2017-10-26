@@ -7,12 +7,11 @@ import { HomeComponent } from './components/home';
 import { AboutComponent } from './components/about';
 import { ListComponent } from './components/list';
 import { NavbarComponent } from './components/navbar';
-import Vuec from 'vue-container';
-import {Syringe} from './syringe';
+import { DependencyInjectionAttribute } from 'vue-di-attributes';
 
 // register the plugin
 Vue.use(VueRouter);
-Vue.use(Syringe);
+Vue.use(DependencyInjectionAttribute);
 
 let router = new VueRouter({
   routes: [

@@ -1,4 +1,4 @@
-import { Service } from '../syringe';
+import { Service } from 'vue-di-attributes';
 
 @Service
 export class DumbService {
